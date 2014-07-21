@@ -198,7 +198,7 @@ public:
     return 9;
   }
 
-private:
+protected:
   int maskOutputSize[256];
   __m128i vecmask[256][2];
 
